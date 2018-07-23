@@ -39,5 +39,9 @@
   "Users": {
     "dataSource": "mysql",
     "public": true
+  },
+  "Journals": {
+    "dataSource": "mysql",
+    "public": true
   }
 }
