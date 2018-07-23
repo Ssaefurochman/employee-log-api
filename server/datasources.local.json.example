@@ -8,9 +8,9 @@
     "port": 3306,
     "url": "",
     "database": "employee_log",
-    "password": "",
+    "password": "[YOUR MYSQL PASSWORD]",
     "name": "mysql",
-    "user": "root",
+    "user": "[YOUR MYSQL USERNAME]",
     "connector": "mysql"
   }
 }
