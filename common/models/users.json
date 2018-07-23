@@ -19,8 +19,25 @@
       "type": "hasMany",
       "model": "Journals",
       "foreignKey": "user_id"
+    },
+    "subordinates": {
+      "type": "hasMany",
+      "model": "Users",
+      "foreignKey": "pid"
+    },
+    "boss": {
+      "type": "belongsTo",
+      "model": "Users",
+      "foreignKey": "pid"
     }
   },
-  "acls": [],
+  "acls": [
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW"
+    }
+  ],
   "methods": {}
 }
