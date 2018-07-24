@@ -24,7 +24,7 @@
       "required": true
     },
     "time": {
-      "type": "date",
+      "type": "string",
       "required": true
     },
     "created_at": {
